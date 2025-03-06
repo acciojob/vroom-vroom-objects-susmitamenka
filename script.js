@@ -1,7 +1,7 @@
 // Complete the js code
-function Car(make, model) {}
+// function Car(make, model) {}
 
-function SportsCar(make, model, topSpeed) {}
+// function SportsCar(make, model, topSpeed) {}
 
 // Do not change the code below
 class Car{
