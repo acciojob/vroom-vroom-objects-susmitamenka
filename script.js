@@ -19,7 +19,7 @@ class SportsCar extends Car{
 		this.topSpeed = topSpeed
 	}
 	getTopSpeed(){
-		return(`${this.topSpeed}of sports car`)
+		return(`${this.make},${this.model},${this.topSpeed}of sports car`)
 	}
 }
 window.Car = Car;
