@@ -10,7 +10,7 @@ class Car{
 		this.model = model
 	}
 	getMakeModel(){
-		return(`${this.make},${this.model}`)
+		return(`Ferrari${this.make},Testarossa${this.model}`)
 	}
 }
 class SportsCar extends Car{
@@ -19,7 +19,7 @@ class SportsCar extends Car{
 		this.topSpeed = topSpeed
 	}
 	getTopSpeed(){
-		return(`${this.topSpeed}`)
+		return(`200${this.topSpeed}`)
 	}
 }
 window.Car = Car;
